@@ -1,0 +1,24 @@
+{
+  "sectionTitle": "Selected Code and Project Links",
+  "intro": "A few public GitHub repositories that complement the academic profile. Edit or expand this list in data/projects.json.",
+  "items": [
+    {
+      "name": "evacuation-traffic-games",
+      "description": "Simulation framework for emergency evacuation traffic on arterial road networks using queueing models and traffic-signal control.",
+      "href": "https://github.com/perryGabriel/evacuation-traffic-games",
+      "tag": "Simulation"
+    },
+    {
+      "name": "masked-perturbation-model",
+      "description": "Code repository associated with thesis work on masked perturbation models.",
+      "href": "https://github.com/perryGabriel/masked-perturbation-model",
+      "tag": "Research code"
+    },
+    {
+      "name": "modular_collatz",
+      "description": "Repository for an algorithm presented in an arXiv preprint referenced in the GitHub profile.",
+      "href": "https://github.com/perryGabriel/modular_collatz",
+      "tag": "Algorithms"
+    }
+  ]
+}

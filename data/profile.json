@@ -1,0 +1,64 @@
+{
+  "name": "Gabriel M. Perry",
+  "shortName": "Gabriel Perry",
+  "headline": "Ph.D. student in Computer Science at Brigham Young University",
+  "location": "Provo, Utah",
+  "affiliation": "Information and Decision Algorithms (IDeA) Labs, BYU",
+  "about": [
+    "I am a computer science Ph.D. student at Brigham Young University and a researcher in IDeA Labs. My work sits at the intersection of control theory, mathematical modeling, algorithms, and cyber-physical system security.",
+    "I am especially interested in how mathematical structure can reveal vulnerabilities, simplify computation, and support robust decisions in complex networked systems. My recent work includes algorithms for matrix inverse entries, control-theoretic security questions, and collaborative work in resource allocation and geospatial anomaly detection."
+  ],
+  "researchAreas": [
+    "Control theory",
+    "Cyber-physical systems security",
+    "Mathematical modeling",
+    "Game theory",
+    "Algorithms and optimization",
+    "Machine learning and data science"
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/perryGabriel",
+      "icon": "github"
+    },
+    {
+      "label": "Google Scholar",
+      "href": "https://scholar.google.com/citations?user=r0t18lkAAAAJ&hl=en&oi=ao",
+      "icon": "scholar"
+    },
+    {
+      "label": "ORCID",
+      "href": "https://orcid.org/0009-0003-3134-0999",
+      "icon": "orcid"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/gabriel-m-perry/",
+      "icon": "linkedin"
+    },
+    {
+      "label": "IDeA Labs Profile",
+      "href": "https://idealabs.byu.edu/PersonDetails/3",
+      "icon": "lab"
+    }
+  ],
+  "highlights": [
+    {
+      "value": "2023-Present",
+      "label": "IDeA Labs research"
+    },
+    {
+      "value": "CDC 2024",
+      "label": "Conference publication"
+    },
+    {
+      "value": "ACC 2025",
+      "label": "Conference coauthor"
+    },
+    {
+      "value": "4.00",
+      "label": "Graduate GPA listed on resume"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "sectionTitle": "Education",
+  "items": [
+    {
+      "degree": "Combined Master’s/Ph.D. in Computer Science",
+      "institution": "Brigham Young University",
+      "location": "Provo, Utah",
+      "dates": "Currently enrolled",
+      "details": [
+        "Graduate GPA: 4.00"
+      ]
+    },
+    {
+      "degree": "B.S. in Computer Science, Data Science Emphasis; Mathematics Minor",
+      "institution": "Brigham Young University",
+      "location": "Provo, Utah",
+      "dates": "Graduated April 2024",
+      "details": [
+        "Dean’s List",
+        "Cum Laude"
+      ]
+    },
+    {
+      "degree": "High School Diploma",
+      "institution": "Gridley High School",
+      "location": "Gridley, California",
+      "dates": "June 2017",
+      "details": [
+        "Valedictorian",
+        "Eagle Scout Award"
+      ]
+    }
+  ]
+}

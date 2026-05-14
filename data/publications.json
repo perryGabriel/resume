@@ -1,0 +1,37 @@
+{
+  "sectionTitle": "Publications and Scholarly Work",
+  "items": [
+    {
+      "title": "A Matrix Inverse Algorithm based on Bi-Directional Graph Search",
+      "authors": "Gabriel M. Perry, Micah H. Olson, David Grimsman, and Sean Warnick",
+      "venue": "2024 IEEE 63rd Conference on Decision and Control (CDC), pp. 8926-8931",
+      "year": "2024",
+      "links": [
+        {
+          "label": "PDF",
+          "href": "https://idealabs.byu.edu/pdfs/BidirectionalMatrix.pdf"
+        },
+        {
+          "label": "OpenReview record",
+          "href": "https://openreview.net/revisions?id=R5AVyItv9Q"
+        },
+        {
+          "label": "DOI",
+          "href": "https://doi.org/10.1109/CDC56724.2024.10886684"
+        }
+      ]
+    },
+    {
+      "title": "A Bilevel Approach to Resource Allocation for Utility-Based Request-Response Systems",
+      "authors": "Tanner Sundwall, Gabriel M. Perry, David Grimsman, and Jonathan Sillito",
+      "venue": "2025 American Control Conference (ACC), pp. 2268-2273",
+      "year": "2025",
+      "links": [
+        {
+          "label": "DOI",
+          "href": "https://doi.org/10.23919/ACC63710.2025.11107430"
+        }
+      ]
+    }
+  ]
+}

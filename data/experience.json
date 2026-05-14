@@ -1,0 +1,42 @@
+{
+  "sectionTitle": "Additional Professional Experience",
+  "items": [
+    {
+      "role": "QA Auditor",
+      "organization": "Growth LLC",
+      "dates": "2021-2023",
+      "bullets": [
+        "Audited client calls and summit presentations for quality improvement.",
+        "Built communication, evaluation, and process-improvement experience."
+      ]
+    },
+    {
+      "role": "Enumerator",
+      "organization": "National Agricultural Statistics Service / NASDA, U.S. Department of Agriculture",
+      "dates": "2016-2021",
+      "bullets": [
+        "Collected crop data and random samples for agricultural yield estimation.",
+        "Worked within federal data-collection protocols and field logistics."
+      ]
+    },
+    {
+      "role": "Religious Missionary",
+      "organization": "The Church of Jesus Christ of Latter-day Saints",
+      "dates": "2017-2019",
+      "bullets": [
+        "Served in the Marshall Islands/Kiribati Mission.",
+        "Led and coordinated the well-being and logistics of a 14-member team.",
+        "Developed cultural adaptability and team leadership in dynamic settings."
+      ]
+    },
+    {
+      "role": "Walnut Huller",
+      "organization": "Sundial Orchards",
+      "dates": "2019-2020",
+      "bullets": [
+        "Supported seasonal walnut-processing operations.",
+        "Loaded semi-trailers, coordinated nut-flow logistics, and occasionally operated a forklift."
+      ]
+    }
+  ]
+}

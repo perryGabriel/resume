@@ -1,0 +1,34 @@
+{
+  "publicContact": [
+    {
+      "label": "Email",
+      "value": "perrygabriel99@gmail.com",
+      "href": "mailto:perrygabriel99@gmail.com",
+      "public": true
+    },
+    {
+      "label": "BYU Email",
+      "value": "gmp99@byu.edu",
+      "href": "mailto:gmp99@byu.edu",
+      "public": true
+    }
+  ],
+  "storedButNotRenderedByDefault": [
+    {
+      "label": "Additional email",
+      "value": "gperry@arlis.umd.edu",
+      "public": false
+    },
+    {
+      "label": "Phone",
+      "value": "530-531-7948",
+      "public": false
+    },
+    {
+      "label": "Full street address",
+      "value": "667 Wymount Terrace, Provo, UT, 84604-2044",
+      "public": false
+    }
+  ],
+  "note": "The phone number and full street address from the resumes are retained in editable JSON but intentionally not rendered on the public website by default."
+}

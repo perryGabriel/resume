@@ -1,0 +1,30 @@
+{
+  "sectionTitle": "Research Experience",
+  "items": [
+    {
+      "role": "Research Assistant",
+      "organization": "Information and Decision Algorithms (IDeA) Labs, Brigham Young University",
+      "dates": "2023-Present",
+      "summary": "Research in control theory, feedback systems, mathematical modeling, algorithms, and system security.",
+      "bullets": [
+        "Study cyber-physical system security and vulnerabilities in critical infrastructures.",
+        "Conduct mathematical analysis of minimal destabilizing perturbations and related feedback-security questions.",
+        "Contribute to research touching robust control, signal-link vulnerability, and computational methods."
+      ]
+    },
+    {
+      "role": "2025 RISC-ARLIS Summer Innovation Sprints · Team NY",
+      "organization": "GeoINT Methods for Supply Chain Anomaly Detection",
+      "dates": "2025",
+      "summary": "Applied geospatial imagery data, machine learning, and data science to supply-chain anomaly detection.",
+      "bullets": []
+    },
+    {
+      "role": "Research contributor on DOE SBIR-related work",
+      "organization": "Attack Surface Modeling for Situational Awareness and Vulnerability Analysis of Power Systems",
+      "dates": "Referenced in 2026 resume",
+      "summary": "Worked on robust control of cyber-physical systems with collaborators connected to Provo City Power, Oak Ridge National Laboratory, and KTH.",
+      "bullets": []
+    }
+  ]
+}

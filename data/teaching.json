@@ -1,0 +1,41 @@
+{
+  "sectionTitle": "Teaching and Mentorship",
+  "items": [
+    {
+      "role": "Graduate Teaching Assistant",
+      "organization": "Brigham Young University",
+      "dates": "2025-Present",
+      "bullets": [
+        "Assisted students in Game Theory and Theory of Predictive Modeling.",
+        "Supported mathematically advanced coursework and course-development efforts around modeling."
+      ]
+    },
+    {
+      "role": "Undergraduate Teaching Assistant",
+      "organization": "Brigham Young University",
+      "dates": "2022-2023",
+      "bullets": [
+        "Assisted students in Computation Theory, Discrete Structures, and Introduction to Computer Systems.",
+        "Helped with proofs, medium-scale programming projects, and difficult theoretical concepts.",
+        "Received positive feedback for clarity and student support."
+      ]
+    },
+    {
+      "role": "Mathematics Teaching Assistant",
+      "organization": "Gridley High School",
+      "dates": "2016-2017",
+      "bullets": [
+        "Supported high-school mathematics instruction."
+      ]
+    },
+    {
+      "role": "Chair",
+      "organization": "Operations Research and Engineered Systems lab at Brigham Young University",
+      "dates": "2025-Present",
+      "bullets": [
+        "Organized meetings and a training/lecture series.",
+        "Assisted undergraduates in moving research toward publication."
+      ]
+    }
+  ]
+}

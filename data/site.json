@@ -1,0 +1,28 @@
+{
+  "title": "Gabriel M. Perry | Research, Control, and Computing",
+  "description": "Personal academic and professional website for Gabriel M. Perry, a BYU computer science Ph.D. student working in control theory, modeling, and cyber-physical systems.",
+  "theme": {
+    "primary": "#002E5D",
+    "primaryDeep": "#001A33",
+    "accent": "#2C7BE5",
+    "surface": "#F7FAFC",
+    "text": "#102A43"
+  },
+  "hero": {
+    "eyebrow": "Computer Science Ph.D. Student · Systems & Control Researcher",
+    "title": "Gabriel M. Perry",
+    "subtitle": "I study control, modeling, algorithms, and cyber-physical system security, with a focus on rigorous mathematics and useful computational tools.",
+    "primaryCta": {
+      "label": "View Publications",
+      "href": "#publications"
+    },
+    "secondaryCta": {
+      "label": "Download Resume",
+      "href": "assets/docs/gabriel-perry-resume.pdf"
+    }
+  },
+  "meta": {
+    "generatedFor": "GitHub Pages",
+    "dataModel": "Section content lives in /data/*.json and is rendered by /assets/js/site.js"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "sectionTitle": "Skills",
+  "groups": [
+    {
+      "name": "Programming",
+      "items": [
+        "Python",
+        "C/C++",
+        "Java",
+        "MATLAB",
+        "SQL/SQLite",
+        "NoSQL"
+      ]
+    },
+    {
+      "name": "Machine Learning and Scientific Computing",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "Autograd tools",
+        "Deterministic modeling",
+        "Data-driven parameter learning"
+      ]
+    },
+    {
+      "name": "Mathematics and Theory",
+      "items": [
+        "Control theory",
+        "Game theory",
+        "Cryptography",
+        "Linear algebra",
+        "Optimization",
+        "Calculus",
+        "Abstract algebra",
+        "Number theory"
+      ]
+    },
+    {
+      "name": "Systems and Security",
+      "items": [
+        "Computation theory",
+        "NP-completeness",
+        "Discrete structures",
+        "Unix command line",
+        "Memory abstraction",
+        "Introductory penetration-testing exposure"
+      ]
+    },
+    {
+      "name": "Languages",
+      "items": [
+        "Kiribati / Gilbertese - fluent"
+      ]
+    }
+  ]
+}
