@@ -2,6 +2,8 @@
 
 A modular, static personal website designed as an extended resume and research profile. It is ready for GitHub Pages and uses plain HTML, CSS, JavaScript, and JSON—no build step required.
 
+The site is viewable at https://perrygabriel.github.io/resume/
+
 ## Launch on GitHub Pages
 
 1. Create a new GitHub repository, for example `gabriel-perry-site`.
