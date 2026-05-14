@@ -10,7 +10,7 @@
       "label": "BYU Email",
       "value": "gmp99@byu.edu",
       "href": "mailto:gmp99@byu.edu",
-      "public": true
+      "public": false
     }
   ],
   "storedButNotRenderedByDefault": [
@@ -21,12 +21,12 @@
     },
     {
       "label": "Phone",
-      "value": "530-531-7948",
+      "value": "xxx-xxx-xxxx",
       "public": false
     },
     {
       "label": "Full street address",
-      "value": "667 Wymount Terrace, Provo, UT, 84604-2044",
+      "value": "xxx",
       "public": false
     }
   ],
