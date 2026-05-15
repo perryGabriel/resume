@@ -64,15 +64,23 @@ function renderLinks(links = []) {
 function renderAvatar(profile) {
   const avatar = document.querySelector("#profile-avatar");
   const fallbackText = profile.photo?.fallbackText ?? profile.shortName?.split(" ").map((part) => part[0]).join("") ?? "GP";
-
-  if (profile.photo?.src) {
-    avatar.innerHTML = `<img src="${escapeHtml(profile.photo.src)}" alt="${escapeHtml(profile.photo.alt ?? profile.name)}" />`;
-    avatar.classList.add("has-photo");
-    avatar.removeAttribute("aria-hidden");
-  } else {
+  const renderFallback = () => {
     avatar.textContent = fallbackText;
     avatar.classList.remove("has-photo");
     avatar.setAttribute("aria-hidden", "true");
+  };
+
+  if (profile.photo?.src) {
+    const image = document.createElement("img");
+    image.src = profile.photo.src;
+    image.alt = profile.photo.alt ?? profile.name;
+    image.addEventListener("error", renderFallback, { once: true });
+
+    avatar.replaceChildren(image);
+    avatar.classList.add("has-photo");
+    avatar.removeAttribute("aria-hidden");
+  } else {
+    renderFallback();
   }
 }
 
