@@ -174,7 +174,10 @@ a { color: inherit; }
   border-color: rgba(255, 255, 255, 0.28);
 }
 
-.sidebar-links { margin-bottom: 1.5rem; }
+.sidebar-links {
+  margin-bottom: 2rem;
+}
+
 .sidebar-links a { font-size: 0.94rem; }
 
 .content {
