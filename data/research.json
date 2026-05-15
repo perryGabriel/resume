@@ -9,21 +9,31 @@
       "bullets": [
         "Study cyber-physical system security and vulnerabilities in critical infrastructures.",
         "Conduct mathematical analysis of minimal destabilizing perturbations and related feedback-security questions.",
-        "Contribute to research touching robust control, signal-link vulnerability, and computational methods."
+        "Contribute to research touching robust control, signal-link vulnerability, and computational methods.",
+        "Lead generative and agentic AI workflows that accelerate research prototyping, literature synthesis, software implementation, and experiment analysis across collaborative projects."
       ]
     },
     {
-      "role": "2025 RISC-ARLIS Summer Innovation Sprints · Team NY",
+      "role": "2025 RISC-ARLIS Summer Innovation Sprints · Research Team Lead, Team NY",
       "organization": "GeoINT Methods for Supply Chain Anomaly Detection",
       "dates": "2025",
-      "summary": "Applied geospatial imagery data, machine learning, and data science to supply-chain anomaly detection.",
-      "bullets": []
+      "summary": "Led Team NY on GeoINT methods for supply-chain anomaly detection, coordinating technical direction across geospatial imagery, machine learning, and data science work.",
+      "bullets": [
+        "Guided team research planning, analysis milestones, and presentation preparation for a 10-week ARLIS RISC innovation sprint.",
+        "Applied geospatial imagery analysis and machine learning to identify indicators relevant to supply-chain anomaly detection."
+      ],
+      "links": [
+        {
+          "label": "RISC 2025 report",
+          "href": "https://www.arlis.umd.edu/sites/default/files/2026-01/RISC-2025-Report.pdf#:~:text=Gabriel%20Perry"
+        }
+      ]
     },
     {
       "role": "Research contributor on DOE SBIR-related work",
       "organization": "Attack Surface Modeling for Situational Awareness and Vulnerability Analysis of Power Systems",
-      "dates": "Referenced in 2026 resume",
-      "summary": "Worked on robust control of cyber-physical systems with collaborators connected to Provo City Power, Oak Ridge National Laboratory, and KTH.",
+      "dates": "2026",
+      "summary": "Contributed robust-control and cyber-physical-system security modeling for power-system situational awareness and vulnerability analysis.",
       "bullets": []
     }
   ]
