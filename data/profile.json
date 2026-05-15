@@ -41,6 +41,11 @@
       "label": "IDeA Labs Profile",
       "href": "https://idealabs.byu.edu/PersonDetails/3",
       "icon": "lab"
+    },
+    {
+      "label": "YouTube Channel",
+      "href": "https://www.youtube.com/@gabrielperry1716",
+      "icon": "youtube"
     }
   ],
   "highlights": [
@@ -58,7 +63,12 @@
     },
     {
       "value": "4.00",
-      "label": "Graduate GPA listed on resume"
+      "label": "Graduate GPA"
     }
-  ]
+  ],
+  "photo": {
+    "src": "",
+    "alt": "Portrait of Gabriel M. Perry",
+    "fallbackText": "GP"
+  }
 }

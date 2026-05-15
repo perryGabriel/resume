@@ -20,9 +20,5 @@
       "label": "Download Resume",
       "href": "assets/docs/gabriel-perry-resume.pdf"
     }
-  },
-  "meta": {
-    "generatedFor": "GitHub Pages",
-    "dataModel": "Section content lives in /data/*.json and is rendered by /assets/js/site.js"
   }
 }

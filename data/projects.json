@@ -1,12 +1,18 @@
 {
   "sectionTitle": "Selected Code and Project Links",
-  "intro": "A few public GitHub repositories that complement the academic profile. Edit or expand this list in data/projects.json.",
+  "intro": "Public repositories that complement the academic profile and highlight research-oriented software.",
   "items": [
     {
-      "name": "evacuation-traffic-games",
-      "description": "Simulation framework for emergency evacuation traffic on arterial road networks using queueing models and traffic-signal control.",
-      "href": "https://github.com/perryGabriel/evacuation-traffic-games",
-      "tag": "Simulation"
+      "name": "bayesian-sysid",
+      "description": "Research-oriented Python tools for Bayesian ARX system identification with uncertainty-aware stability, realization, observer, and closed-loop analysis workflows.",
+      "href": "https://github.com/perryGabriel/bayesian-sysid",
+      "tag": "Research code",
+      "links": [
+        {
+          "label": "YouTube presentation",
+          "href": "https://youtu.be/ctGgKKvs0lw"
+        }
+      ]
     },
     {
       "name": "masked-perturbation-model",
@@ -16,7 +22,7 @@
     },
     {
       "name": "modular_collatz",
-      "description": "Repository for an algorithm presented in an arXiv preprint referenced in the GitHub profile.",
+      "description": "Algorithm-focused repository for modular analysis and computational experimentation.",
       "href": "https://github.com/perryGabriel/modular_collatz",
       "tag": "Algorithms"
     }

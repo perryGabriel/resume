@@ -2,6 +2,24 @@
   "sectionTitle": "Strengths and Distinctions",
   "items": [
     {
+      "title": "Generative and agentic AI leadership",
+      "description": "Lead practical use of generative and agentic AI to accelerate research projects: decomposing ambiguous questions into testable workflows, building analysis scaffolds, reviewing model outputs critically, and turning rapid prototypes into reproducible technical work."
+    },
+    {
+      "title": "IDeA Labs ethics leadership",
+      "description": "Founded and organized the Modeling the Ethics of Persuasion and Manipulation group in IDeA Labs, creating a research forum for formalizing how influence, incentives, and manipulation can be modeled responsibly."
+    },
+    {
+      "title": "RISC 2025 Team NY leadership",
+      "description": "Led Research Team NY during the 2025 RISC-ARLIS Summer Innovation Sprints, coordinating a multidisciplinary GeoINT supply-chain anomaly detection project from problem framing through final presentation.",
+      "links": [
+        {
+          "label": "RISC 2025 report",
+          "href": "https://www.arlis.umd.edu/sites/default/files/2026-01/RISC-2025-Report.pdf#:~:text=Gabriel%20Perry"
+        }
+      ]
+    },
+    {
       "title": "Critical analysis",
       "description": "Experienced in framing and solving complex security questions in cyber-physical systems through mathematical structure."
     },

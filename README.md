@@ -49,6 +49,15 @@ All editable content is separated into human-readable JSON files in `data/`:
 
 The resumes supplied for this build contain a phone number and full street address. Those values are preserved in `data/contact.json` for easy editing, but are intentionally **not rendered publicly by default**. Change their `public` flags and the renderer if you truly want them displayed.
 
+
+## Profile photo
+
+The sidebar avatar is driven by the `photo` object in `data/profile.json`. To replace the initials with a headshot:
+
+1. Add a square image file, for example `assets/images/profile.jpg`.
+2. Set `photo.src` in `data/profile.json` to that relative path.
+3. The site crops the square image with `object-fit: cover` and displays it as a circle. If `photo.src` is blank, the `photo.fallbackText` initials are shown instead.
+
 ## Included design features
 
 - BYU-blue and white palette

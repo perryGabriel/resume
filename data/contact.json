@@ -13,22 +13,5 @@
       "public": false
     }
   ],
-  "storedButNotRenderedByDefault": [
-    {
-      "label": "Additional email",
-      "value": "gperry@arlis.umd.edu",
-      "public": false
-    },
-    {
-      "label": "Phone",
-      "value": "xxx-xxx-xxxx",
-      "public": false
-    },
-    {
-      "label": "Full street address",
-      "value": "xxx",
-      "public": false
-    }
-  ],
-  "note": "My phone number and street address are not made publically available here."
+  "note": "For professional and research inquiries, email is the best contact method."
 }

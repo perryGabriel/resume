@@ -2,6 +2,34 @@
   "sectionTitle": "Publications and Scholarly Work",
   "items": [
     {
+      "title": "A Masked-Perturbation Model for Destabilization Security Games in Feedback Systems",
+      "authors": "Gabriel M. Perry",
+      "venue": "M.S. thesis, Brigham Young University, Theses and Dissertations 11212",
+      "year": "2026",
+      "links": [
+        {
+          "label": "ScholarsArchive record",
+          "href": "https://scholarsarchive.byu.edu/etd/11212/"
+        },
+        {
+          "label": "YouTube presentation",
+          "href": "https://youtu.be/jjW-QZsh_lg"
+        }
+      ]
+    },
+    {
+      "title": "A Bilevel Approach to Resource Allocation for Utility-Based Request-Response Systems",
+      "authors": "Tanner Sundwall, Gabriel M. Perry, David Grimsman, and Jonathan Sillito",
+      "venue": "2025 American Control Conference (ACC), pp. 2268-2273",
+      "year": "2025",
+      "links": [
+        {
+          "label": "DOI",
+          "href": "https://doi.org/10.23919/ACC63710.2025.11107430"
+        }
+      ]
+    },
+    {
       "title": "A Matrix Inverse Algorithm based on Bi-Directional Graph Search",
       "authors": "Gabriel M. Perry, Micah H. Olson, David Grimsman, and Sean Warnick",
       "venue": "2024 IEEE 63rd Conference on Decision and Control (CDC), pp. 8926-8931",
@@ -18,18 +46,10 @@
         {
           "label": "DOI",
           "href": "https://doi.org/10.1109/CDC56724.2024.10886684"
-        }
-      ]
-    },
-    {
-      "title": "A Bilevel Approach to Resource Allocation for Utility-Based Request-Response Systems",
-      "authors": "Tanner Sundwall, Gabriel M. Perry, David Grimsman, and Jonathan Sillito",
-      "venue": "2025 American Control Conference (ACC), pp. 2268-2273",
-      "year": "2025",
-      "links": [
+        },
         {
-          "label": "DOI",
-          "href": "https://doi.org/10.23919/ACC63710.2025.11107430"
+          "label": "YouTube presentation",
+          "href": "https://youtu.be/wnt0rgrZk6U"
         }
       ]
     }

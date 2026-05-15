@@ -53,9 +53,33 @@ function renderHero(site) {
     </div>`;
 }
 
+function renderLinks(links = []) {
+  if (!links.length) return "";
+  return `
+    <div class="link-row">
+      ${links.map((link) => `<a class="inline-link" href="${escapeHtml(link.href)}" target="_blank" rel="noreferrer noopener">${escapeHtml(link.label)}</a>`).join("")}
+    </div>`;
+}
+
+function renderAvatar(profile) {
+  const avatar = document.querySelector("#profile-avatar");
+  const fallbackText = profile.photo?.fallbackText ?? profile.shortName?.split(" ").map((part) => part[0]).join("") ?? "GP";
+
+  if (profile.photo?.src) {
+    avatar.innerHTML = `<img src="${escapeHtml(profile.photo.src)}" alt="${escapeHtml(profile.photo.alt ?? profile.name)}" />`;
+    avatar.classList.add("has-photo");
+    avatar.removeAttribute("aria-hidden");
+  } else {
+    avatar.textContent = fallbackText;
+    avatar.classList.remove("has-photo");
+    avatar.setAttribute("aria-hidden", "true");
+  }
+}
+
 function renderSidebar(profile, sectionOrder) {
   document.querySelector("#sidebar-name").textContent = profile.name;
   document.querySelector("#sidebar-headline").textContent = profile.headline;
+  renderAvatar(profile);
 
   const nav = document.querySelector("#sidebar-nav");
   nav.innerHTML = sectionOrder.sections.map((section) => `
@@ -113,6 +137,7 @@ function renderTimelineSection(id, title, items) {
       ${item.summary ? `<p>${escapeHtml(item.summary)}</p>` : ""}
       ${item.details?.length ? `<ul class="clean-list">${item.details.map((detail) => `<li>${escapeHtml(detail)}</li>`).join("")}</ul>` : ""}
       ${item.bullets?.length ? `<ul class="clean-list">${item.bullets.map((bullet) => `<li>${escapeHtml(bullet)}</li>`).join("")}</ul>` : ""}
+      ${renderLinks(item.links)}
     </article>
   `).join("");
   return panel(id, title, `<div class="timeline-grid">${cards}</div>`);
@@ -124,9 +149,7 @@ function renderPublications(publications) {
       <h3>${escapeHtml(item.title)}</h3>
       <p><strong>${escapeHtml(item.authors)}</strong></p>
       <p class="publication-meta">${escapeHtml(item.venue)} · ${escapeHtml(item.year)}</p>
-      <div class="link-row">
-        ${(item.links ?? []).map((link) => `<a class="inline-link" href="${escapeHtml(link.href)}" target="_blank" rel="noreferrer noopener">${escapeHtml(link.label)}</a>`).join("")}
-      </div>
+      ${renderLinks(item.links)}
     </article>
   `).join("");
   return panel("publications", publications.sectionTitle, `<div class="publication-list">${cards}</div>`);
@@ -138,7 +161,7 @@ function renderProjects(projects) {
       <span class="tag">${escapeHtml(project.tag)}</span>
       <h3><a class="project-title" href="${escapeHtml(project.href)}" target="_blank" rel="noreferrer noopener">${escapeHtml(project.name)}</a></h3>
       <p>${escapeHtml(project.description)}</p>
-      <div class="link-row"><a class="inline-link" href="${escapeHtml(project.href)}" target="_blank" rel="noreferrer noopener">Open repository</a></div>
+      ${renderLinks([{ label: "Open repository", href: project.href }, ...(project.links ?? [])])}
     </article>
   `).join("");
   return panel("projects", projects.sectionTitle, `<div class="project-grid">${cards}</div>`, projects.intro);
@@ -159,6 +182,7 @@ function renderAchievements(achievements) {
     <article class="achievement-card">
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.description)}</p>
+      ${renderLinks(item.links)}
     </article>
   `).join("");
   return panel("achievements", achievements.sectionTitle, `<div class="achievement-grid">${cards}</div>`);
@@ -174,7 +198,7 @@ function renderContact(contact) {
   `).join("");
   return panel("contact", "Contact", `
     <div class="contact-grid">${cards}</div>
-    <div class="note-card">${escapeHtml(contact.note)}</div>
+    ${contact.note ? `<div class="note-card">${escapeHtml(contact.note)}</div>` : ""}
   `);
 }
 
