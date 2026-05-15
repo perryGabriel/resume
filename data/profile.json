@@ -67,7 +67,7 @@
     }
   ],
   "photo": {
-    "src": "",
+    "src": "assets/images/profile.jpg",
     "alt": "Portrait of Gabriel M. Perry",
     "fallbackText": "GP"
   }
