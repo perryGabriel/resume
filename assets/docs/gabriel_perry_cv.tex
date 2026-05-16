@@ -1,0 +1,178 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,margin=0.48in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{multicol}
+\usepackage{ragged2e}
+
+\definecolor{accent}{HTML}{16324F}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rulegray}{HTML}{B8C2CC}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accent,
+    linkcolor=accent,
+    pdfauthor={Gabriel M. Perry},
+    pdftitle={Gabriel M. Perry - Curriculum Vitae},
+    pdfsubject={Curriculum Vitae},
+    pdfkeywords={Gabriel Perry, control theory, cyber-physical systems, system identification, research CV}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.3pt}
+\fancyfoot[L]{\footnotesize Gabriel M. Perry - Curriculum Vitae}
+\fancyfoot[R]{\footnotesize Page \thepage\ of \pageref{LastPage}}
+
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0em}{}
+  [\vspace{-0.35em}\titlerule]
+\titlespacing*{\section}{0pt}{0.56em}{0.28em}
+
+\setlist[itemize]{leftmargin=1.05em,itemsep=0.08em,topsep=0.08em,parsep=0pt,partopsep=0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.08em}
+\renewcommand{\arraystretch}{1.00}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1} \hfill {\color{muted}#2}\\
+  \emph{#3} \hfill {\color{muted}#4}\\[-0.2em]
+}
+
+\newcommand{\project}[2]{%
+  \textbf{#1}. #2
+}
+
+\newcommand{\cvlink}[2]{\href{#1}{#2}}
+
+\begin{document}
+
+\begin{minipage}[t]{0.76\textwidth}
+    {\LARGE\bfseries\color{accent} Gabriel M. Perry}\\[0.18em]
+    {\normalsize Ph.D. Student in Computer Science \;|\; Feedback Systems Security \;|\; Mathematical Modeling \;|\; Interim Secret Clearance}\\[0.34em]
+    \small
+    Provo, UT \;|\; \href{mailto:perrygabriel99@gmail.com}{perrygabriel99@gmail.com} \;|\; \href{mailto:gmp99@byu.edu}{gmp99@byu.edu} \;|\; 530-531-7948\\
+    \cvlink{https://perrygabriel.github.io/resume/}{Personal Webpage} \;|\;
+    \cvlink{https://github.com/perryGabriel}{GitHub} \;|\;
+    \cvlink{https://scholar.google.com/citations?user=r0t18lkAAAAJ\&hl=en\&oi=ao}{Google Scholar} \;|\;
+    \cvlink{https://www.linkedin.com/in/gabriel-m-perry/}{LinkedIn} \;|\;
+    \cvlink{https://www.youtube.com/@gabrielperry1716}{YouTube}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.20\textwidth}
+    \centering
+    \vspace{-0.1em}
+    \href{https://perrygabriel.github.io/resume/}{\includegraphics[width=0.88\linewidth]{personal-website-qr.png}}\\[-0.25em]
+    {\scriptsize \href{https://perrygabriel.github.io/resume/}{Scan or click here for personal webpage}}
+\end{minipage}
+
+\section{Research Profile}
+Graduate researcher in computer science and control-oriented modeling, with work spanning robust feedback security, cyber-physical vulnerability analysis, system identification, algorithms, research software, teaching, and mentorship.
+
+\section{Research Interests}
+Robust control; cyber-physical systems security; feedback-system vulnerability analysis; system identification; Bayesian modeling; control-oriented machine learning; game theory; mathematical modeling; networked dynamical systems; algorithms and scientific computing.
+
+\section{Education}
+\entry{Brigham Young University}{Provo, UT}{Ph.D. in Computer Science, expected April 2031}{2026--2031}
+\entry{Brigham Young University}{Provo, UT}{M.S. in Computer Science, defended April 2026}{2024--2026}
+\begin{itemize}
+    \item Thesis: \emph{A Masked-Perturbation Model for Destabilization Security Games in Feedback Systems}.
+    \item Developed a theory of security games for feedback attacks in cyber-physical systems, emphasizing masked perturbations, destabilization, and attacker/defender structure.
+\end{itemize}
+\entry{Brigham Young University}{Provo, UT}{B.S. in Computer Science, Data Science Emphasis; Minor in Mathematics, GPA 3.95, Cum Laude}{2017--2024}
+
+\section{Research Experience}
+\entry{Research Assistant}{2023--Present}{Information and Decision Algorithms (IDeA) Labs, Brigham Young University}{Provo, UT}
+\begin{itemize}
+    \item Conduct research at the intersection of control theory, cyber-physical systems security, system identification, game theory, and computational modeling.
+    \item Develop mathematical formulations and reproducible software for masked-perturbation security games, feedback-system vulnerability analysis, and critical-infrastructure applications.
+\end{itemize}
+
+\entry{RISC--ARLIS Summer Innovation Sprint, Team NY}{2025}{GeoINT Methods for Supply Chain Anomaly Detection}{Collaborative Research Sprint}
+\begin{itemize}
+    \item Contributed to a collaborative geospatial-imagery machine-learning project for supply-chain anomaly detection, culminating in a technical repository and report.
+\end{itemize}
+
+\entry{Cyber-Physical Security Research Contributor}{2021--Present}{Attack Surface Modeling for Situational Awareness and Vulnerability Analysis of Power Systems}{SBIR-linked Research}
+\begin{itemize}
+    \item Contributed to research connected to DOE SBIR Phase I project DE-SC0021693 on power-system vulnerability analysis, in collaboration contexts involving Provo City Power, Oak Ridge National Laboratory, and KTH.
+\end{itemize}
+
+\section{Selected Research Projects}
+\begin{itemize}
+    \item \project{Masked-Perturbation Model (M.S. Thesis)}{Developed a feedback-security game framework for attacks and defenses that alter interconnection structure through masked perturbations; formalized destabilization-oriented attacker success and finite-action game reductions.}
+    \item \project{Bi-Directional Matrix Inverse Algorithm}{Designed and analyzed a matrix inverse method based on bi-directional graph search, resulting in a peer-reviewed IEEE CDC 2024 publication.}
+    \item \project{Bayesian System Identification (ongoing)}{Developing Bayesian workflows to quantify model uncertainty and assess its downstream effects on control-relevant prediction and analysis.}
+\end{itemize}
+
+\section{Selected Research Software, Algorithms, and Technical Systems}
+\begin{itemize}
+    \item \project{\cvlink{https://github.com/perryGabriel/masked-perturbation-model}{masked-perturbation-model}}{Research codebase for the M.S. thesis, with game formulations, transfer-function examples, numerical experiments, documentation, tests, and demonstrations.}
+    \item \project{\cvlink{https://github.com/perryGabriel/modular_collatz}{modular\_collatz}}{Developed a reduced-memory algorithmic framework for Collatz dynamics, with an installable Python package, CLI, tests, and technical manuscript.}
+    \item \project{\cvlink{https://github.com/perryGabriel/brent-scheme}{brent-scheme}}{Built a research software package for tensor schemes in matrix multiplication; explored approximate recursive $3\times3$ schemes trading small numerical error for improved arithmetic scaling.}
+    \item \project{Agentic AI for Research Engineering}{Used agentic AI workflows to accelerate construction and professionalization of public research repositories, including package structure, tests, reports, and reproducible examples.}
+    \item \project{Web and React Development}{Built websites and React-based pages for communicating research, presenting technical work, and making public-facing materials more accessible.}
+\end{itemize}
+
+\section{Publications}
+\begin{itemize}
+    \item Gabriel M. Perry, Micah H. Olson, David Grimsman, and Sean Warnick. ``A Matrix Inverse Algorithm based on Bi-Directional Graph Search.'' \emph{Proceedings of the 2024 IEEE 63rd Conference on Decision and Control (CDC)}, pp. 8926--8931, 2024.
+    \item Tanner Sundwall, Gabriel M. Perry, David Grimsman, and Jonathan Sillito. ``A bilevel approach to resource allocation for utility-based request-response systems.'' \emph{Proceedings of the 2025 American Control Conference (ACC)}, pp. 2268--2273, 2025.
+\end{itemize}
+
+\section{Teaching, Mentorship, and Leadership}
+\entry{Graduate Teaching Assistant}{2025--Present}{Brigham Young University}{Provo, UT}
+\begin{itemize}
+    \item Supported instruction in Game Theory and Theory of Predictive Modeling, with emphasis on mathematical reasoning, modeling principles, and conceptual explanation.
+\end{itemize}
+
+\entry{Undergraduate Teaching Assistant}{2022--2023}{Brigham Young University}{Provo, UT}
+\begin{itemize}
+    \item Assisted students in Computation Theory, Discrete Structures, and Introduction to Computer Systems through proof guidance, programming support, and accessible technical explanation.
+\end{itemize}
+
+\entry{Chair, Operations Research and Engineered Systems Lab}{2025--Present}{Brigham Young University}{Provo, UT}
+\begin{itemize}
+    \item Organize meetings and a training/lecture series on related research topics.
+    \item Mentor undergraduate researchers in project development, research communication, and progress toward publishable work.
+\end{itemize}
+
+\entry{Public Technical Communication}{Ongoing}{Lectures, presentations, and research exposition}{Online}
+\begin{itemize}
+    \item Maintain a public YouTube channel with thesis defense materials, research presentations, and lecture-style technical content.
+\end{itemize}
+
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{1.55in}X}
+Programming & Python, MATLAB, C++, Java, JavaScript/React, \LaTeX; research-code packaging, testing, and reproducible computational workflows.\\
+Machine Learning & PyTorch, TensorFlow, autograd-based modeling, Bayesian system identification, data-driven parameter learning, uncertainty-aware analysis.\\
+Mathematics \& Systems & Robust control, feedback systems, game theory, optimization, linear algebra, cryptography, stochastic modeling, networked dynamical systems.\\
+Research Engineering & Scientific writing, notebook-to-package migration, technical reporting, agentic-AI-assisted software development, repository/documentation design.\\
+\end{tabularx}
+
+\section{Security Clearance}
+Interim Secret clearance.
+
+\section{References}
+\begin{tabularx}{\textwidth}{>{\bfseries}p{1.65in}X}
+Sean Warnick & Brigham Young University \;|\; \href{mailto:sean@cs.byu.edu}{sean@cs.byu.edu}\\
+David Grimsman & Brigham Young University \;|\; \href{mailto:grimsman@cs.byu.edu}{grimsman@cs.byu.edu}\\
+Brian Brown & \href{mailto:bcbrown365@gmail.com}{bcbrown365@gmail.com}\\
+\end{tabularx}
+
+\end{document}
