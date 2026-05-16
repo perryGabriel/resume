@@ -54,7 +54,7 @@ The resumes supplied for this build contain a phone number and full street addre
 
 The Education section includes transcript buttons that point to PDFs in `assets/docs/transcripts/`:
 
-- `assets/docs/transcripts/byu-transcript.pdf`
+- `assets/docs/transcripts/byu-college-transcript.pdf`
 - `assets/docs/transcripts/gridley-high-school-transcript.pdf`
 
 To publish transcripts, add redacted PDF copies with those exact filenames, commit them, and push the site. See `assets/docs/transcripts/README.md` for the full checklist and privacy warning.
