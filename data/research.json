@@ -17,7 +17,7 @@
       "role": "2025 RISC-ARLIS Summer Innovation Sprints · Research Team Lead, Team NY",
       "organization": "GeoINT Methods for Supply Chain Anomaly Detection",
       "dates": "2025",
-      "summary": "Led Team NY on GeoINT methods for supply-chain anomaly detection, coordinating technical direction across geospatial imagery, machine learning, and data science work.",
+      "summary": "Led Team NY, with NGA as the government champion, on GeoINT methods for supply-chain anomaly detection, coordinating technical direction across geospatial imagery, machine learning, and data science work.",
       "bullets": [
         "Guided team research planning, analysis milestones, and presentation preparation for a 10-week ARLIS RISC innovation sprint.",
         "Applied geospatial imagery analysis and machine learning to identify indicators relevant to supply-chain anomaly detection."
@@ -26,15 +26,25 @@
         {
           "label": "RISC 2025 report",
           "href": "https://www.arlis.umd.edu/sites/default/files/2026-01/RISC-2025-Report.pdf#:~:text=Gabriel%20Perry"
+        },
+        {
+          "label": "NGA GEOINT resource",
+          "href": "https://www.nga.mil/search/index.html?query=GEOINT"
         }
       ]
     },
     {
       "role": "Research contributor on DOE SBIR-related work",
-      "organization": "Attack Surface Modeling for Situational Awareness and Vulnerability Analysis of Power Systems",
+      "organization": "AHT · Attack Surface Modeling for Situational Awareness and Vulnerability Analysis of Power Systems",
       "dates": "2026",
-      "summary": "Contributed robust-control and cyber-physical-system security modeling for power-system situational awareness and vulnerability analysis.",
-      "bullets": []
+      "summary": "Contributed robust-control and cyber-physical-system security modeling for AHT’s DOE SBIR work on power-system situational awareness and vulnerability analysis.",
+      "bullets": [],
+      "links": [
+        {
+          "label": "DOE SBIR public abstract",
+          "href": "https://pamspublic.science.energy.gov/WebPAMSExternal/Interface/Common/ViewPublicAbstract.aspx?rv=1c22b187-85fc-4060-b815-332157573c80&rtc=24&PRoleId=10"
+        }
+      ]
     }
   ]
 }

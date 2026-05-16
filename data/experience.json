@@ -17,6 +17,16 @@
       "bullets": [
         "Collected crop data and random samples for agricultural yield estimation.",
         "Worked within federal data-collection protocols and field logistics."
+      ],
+      "links": [
+        {
+          "label": "NASDA",
+          "href": "https://www.nasda.org/"
+        },
+        {
+          "label": "California walnut objective measurement reports",
+          "href": "https://www.nass.usda.gov/Statistics_by_State/California/Publications/Specialty_and_Other_Releases/Walnut/index.php"
+        }
       ]
     },
     {
@@ -27,6 +37,12 @@
         "Served in the Marshall Islands/Kiribati Mission.",
         "Led and coordinated the well-being and logistics of a 14-member team.",
         "Developed cultural adaptability and team leadership in dynamic settings."
+      ],
+      "links": [
+        {
+          "label": "Mission blog",
+          "href": "https://elderperryinkiribati.weebly.com/"
+        }
       ]
     },
     {

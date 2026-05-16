@@ -50,6 +50,15 @@ All editable content is separated into human-readable JSON files in `data/`:
 The resumes supplied for this build contain a phone number and full street address. Those values are preserved in `data/contact.json` for easy editing, but are intentionally **not rendered publicly by default**. Change their `public` flags and the renderer if you truly want them displayed.
 
 
+## Transcript PDFs
+
+The Education section includes transcript buttons that point to PDFs in `assets/docs/transcripts/`:
+
+- `assets/docs/transcripts/byu-transcript.pdf`
+- `assets/docs/transcripts/gridley-high-school-transcript.pdf`
+
+To publish transcripts, add redacted PDF copies with those exact filenames, commit them, and push the site. See `assets/docs/transcripts/README.md` for the full checklist and privacy warning.
+
 ## Profile photo
 
 The sidebar avatar is driven by the `photo` object in `data/profile.json`. To replace the initials with a headshot:
