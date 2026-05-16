@@ -18,7 +18,12 @@
       "name": "masked-perturbation-model",
       "description": "Code repository associated with thesis work on masked perturbation models.",
       "href": "https://github.com/perryGabriel/masked-perturbation-model",
-      "tag": "Research code"
+      "tag": "Research code",
+      "links": [
+        {
+          "label": "YouTube presentation",
+          "href": "https://youtu.be/jjW-QZsh_lg"
+        }
     },
     {
       "name": "modular_collatz",
