@@ -8,6 +8,12 @@
       "dates": "Currently enrolled",
       "details": [
         "Graduate GPA: 4.00"
+      ],
+      "links": [
+        {
+          "label": "College transcript (PDF)",
+          "href": "assets/docs/transcripts/byu-transcript.pdf"
+        }
       ]
     },
     {
@@ -28,6 +34,12 @@
       "details": [
         "Valedictorian",
         "Eagle Scout Award"
+      ],
+      "links": [
+        {
+          "label": "High school transcript (PDF)",
+          "href": "assets/docs/transcripts/gridley-high-school-transcript.pdf"
+        }
       ]
     }
   ]
