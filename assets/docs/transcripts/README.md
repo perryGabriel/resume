@@ -4,7 +4,7 @@ Place public transcript PDFs in this folder so the Education section can link to
 
 Expected filenames:
 
-- `byu-transcript.pdf` — college transcript link shown on the Brigham Young University graduate education card.
+- `byu-college-transcript.pdf` — college transcript link shown on the Brigham Young University graduate education card.
 - `gridley-high-school-transcript.pdf` — high school transcript link shown on the Gridley High School education card.
 
 After adding or replacing a transcript PDF:

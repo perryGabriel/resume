@@ -11,8 +11,8 @@
       ],
       "links": [
         {
-          "label": "College transcript (PDF)",
-          "href": "assets/docs/transcripts/byu-college-transcript.pdf"
+          "label": "BYU college transcript (PDF)",
+          "href": "./assets/docs/transcripts/byu-college-transcript.pdf"
         }
       ]
     },
