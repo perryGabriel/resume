@@ -26,6 +26,12 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
+Before publishing content edits, validate that all JSON data files still parse correctly:
+
+```bash
+node scripts/validate-data.mjs
+```
+
 ## Content architecture
 
 All editable content is separated into human-readable JSON files in `data/`:
