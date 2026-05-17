@@ -36,7 +36,13 @@ const escapeHtml = (value = "") => String(value)
 async function loadJson(path) {
   const response = await fetch(path);
   if (!response.ok) throw new Error(`Unable to load ${path}: ${response.status}`);
-  return response.json();
+
+  const text = await response.text();
+  try {
+    return JSON.parse(text);
+  } catch (error) {
+    throw new Error(`Unable to parse ${path}. Check for missing commas or invalid JSON syntax.`);
+  }
 }
 
 function renderHero(site) {
