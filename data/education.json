@@ -13,6 +13,10 @@
         {
           "label": "BYU college transcript (PDF)",
           "href": "./assets/docs/transcripts/byu-college-transcript.pdf"
+        },
+        {
+          "label": "M.S. eDiploma (PDF)",
+          "href": "./assets/docs/MS eDiploma.pdf"
         }
       ]
     },
